@@ -14,6 +14,7 @@
 		AC6F5477200B19100023B409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6F5475200B19100023B409 /* LaunchScreen.storyboard */; };
 		AC6F5482200B19100023B409 /* Dog_Years_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F5481200B19100023B409 /* Dog_Years_CalcTests.swift */; };
 		AC6F548D200B19100023B409 /* Dog_Years_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6F548C200B19100023B409 /* Dog_Years_CalcUITests.swift */; };
+		AC6F549D200B268C0023B409 /* Bangkaew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6F549C200B268C0023B409 /* Bangkaew.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC6F5488200B19100023B409 /* Dog Years CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Years CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6F548C200B19100023B409 /* Dog_Years_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Years_CalcUITests.swift; sourceTree = "<group>"; };
 		AC6F548E200B19100023B409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6F549C200B268C0023B409 /* Bangkaew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bangkaew.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AC6F5473200B19100023B409 /* Assets.xcassets */,
 				AC6F5475200B19100023B409 /* LaunchScreen.storyboard */,
 				AC6F5478200B19100023B409 /* Info.plist */,
+				AC6F549C200B268C0023B409 /* Bangkaew.jpg */,
 			);
 			path = "Dog Years Calc";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				AC6F5477200B19100023B409 /* LaunchScreen.storyboard in Resources */,
 				AC6F5474200B19100023B409 /* Assets.xcassets in Resources */,
 				AC6F5472200B19100023B409 /* Main.storyboard in Resources */,
+				AC6F549D200B268C0023B409 /* Bangkaew.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
