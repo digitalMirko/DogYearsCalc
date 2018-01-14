@@ -18,45 +18,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dog Years Calc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16X-LW-zSm">
-                                <rect key="frame" x="85" y="20" width="206" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How old is your Dog?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pr-UD-O80">
-                                <rect key="frame" x="85" y="75" width="205" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How old is your Dog?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pr-UD-O80">
+                                <rect key="frame" x="96" y="75" width="184" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="183.5" id="Gmf-0t-i2V"/>
+                                    <constraint firstAttribute="height" constant="24" id="IDF-rf-rOy"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-7S-dRq">
-                                <rect key="frame" x="139" y="124" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Dog is 33 Human Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bza-nc-BQ3">
-                                <rect key="frame" x="52" y="225" width="270" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdh-5X-f1S">
+                                <rect key="frame" x="105" y="182" width="166" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="166" id="VUV-GG-BaV"/>
+                                    <constraint firstAttribute="height" constant="30" id="dF3-KN-RQ4"/>
+                                </constraints>
+                                <state key="normal" title="Get Age in Human Years"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Dog is 33 Human Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bza-nc-BQ3">
+                                <rect key="frame" x="53" y="225" width="270" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="270" id="hhh-Gz-CGq"/>
+                                    <constraint firstAttribute="height" constant="21" id="okN-QC-z95"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2DB-HO-XeJ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2DB-HO-XeJ">
                                 <rect key="frame" x="16" y="274" width="343" height="373"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdh-5X-f1S">
-                                <rect key="frame" x="96" y="182" width="183" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Get Age in Human Years"/>
-                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-7S-dRq">
+                                <rect key="frame" x="139" y="124" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="GbV-Pv-9Sw"/>
+                                    <constraint firstAttribute="height" constant="30" id="buq-J1-WQu"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dog Years Calc" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16X-LW-zSm">
+                                <rect key="frame" x="69" y="20" width="237" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="237" id="M3z-03-y90"/>
+                                    <constraint firstAttribute="height" constant="36" id="x0R-qc-Jjs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2DB-HO-XeJ" secondAttribute="trailing" constant="16" id="3pn-SY-ZmW"/>
+                            <constraint firstItem="jdh-5X-f1S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Cu-7D-TDf"/>
+                            <constraint firstItem="2DB-HO-XeJ" firstAttribute="top" secondItem="bza-nc-BQ3" secondAttribute="bottom" constant="28" id="FVg-UH-iGQ"/>
+                            <constraint firstItem="bza-nc-BQ3" firstAttribute="top" secondItem="jdh-5X-f1S" secondAttribute="bottom" constant="13" id="Gij-w2-bLU"/>
+                            <constraint firstItem="16X-LW-zSm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GlM-HK-Izp"/>
+                            <constraint firstItem="16X-LW-zSm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MKg-dL-Xsn"/>
+                            <constraint firstItem="jdh-5X-f1S" firstAttribute="top" secondItem="KQC-7S-dRq" secondAttribute="bottom" constant="28" id="NMF-NU-Ldp"/>
+                            <constraint firstItem="bza-nc-BQ3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zal-hQ-7l1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2DB-HO-XeJ" secondAttribute="bottom" constant="20" id="ey8-OU-zPY"/>
+                            <constraint firstItem="2DB-HO-XeJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="fyV-Ku-gDG"/>
+                            <constraint firstItem="2DB-HO-XeJ" firstAttribute="top" secondItem="bza-nc-BQ3" secondAttribute="bottom" constant="28" id="gaV-UD-7Pg"/>
+                            <constraint firstItem="5Pr-UD-O80" firstAttribute="top" secondItem="16X-LW-zSm" secondAttribute="bottom" constant="19" id="kYa-lB-cLu"/>
+                            <constraint firstItem="5Pr-UD-O80" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n7R-Ck-8hl"/>
+                            <constraint firstItem="KQC-7S-dRq" firstAttribute="centerX" secondItem="5Pr-UD-O80" secondAttribute="centerX" id="nft-yZ-DE2"/>
+                            <constraint firstItem="jdh-5X-f1S" firstAttribute="top" secondItem="KQC-7S-dRq" secondAttribute="bottom" constant="28" id="sjB-Bm-Kc6"/>
+                            <constraint firstItem="KQC-7S-dRq" firstAttribute="top" secondItem="5Pr-UD-O80" secondAttribute="bottom" constant="25" id="tsr-O5-hnW"/>
+                            <constraint firstItem="bza-nc-BQ3" firstAttribute="top" secondItem="jdh-5X-f1S" secondAttribute="bottom" constant="13" id="xBh-y1-eNH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
