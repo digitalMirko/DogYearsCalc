@@ -35,8 +35,11 @@
                                     <constraint firstAttribute="height" constant="30" id="dF3-KN-RQ4"/>
                                 </constraints>
                                 <state key="normal" title="Get Age in Human Years"/>
+                                <connections>
+                                    <action selector="ageBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AIB-YE-lvF"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Dog is 33 Human Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bza-nc-BQ3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bza-nc-BQ3">
                                 <rect key="frame" x="53" y="225" width="270" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="270" id="hhh-Gz-CGq"/>
@@ -49,7 +52,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2DB-HO-XeJ">
                                 <rect key="frame" x="16" y="274" width="343" height="373"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-7S-dRq">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KQC-7S-dRq">
                                 <rect key="frame" x="139" y="124" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="GbV-Pv-9Sw"/>
@@ -92,6 +95,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="answerLbl" destination="bza-nc-BQ3" id="1lH-0s-8Ep"/>
+                        <outlet property="textField" destination="KQC-7S-dRq" id="ejQ-hf-UCL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
